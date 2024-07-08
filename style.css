@@ -3,16 +3,21 @@ body{
     padding: 0px;
 }
 
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
 section{
-    border: 10px solid rgb(175, 127, 220);
-    width: 40%;
-    margin: 100px 400px;
+    border: 20px solid rgb(190, 148, 228);
+    width: 30%;
+    margin: 50px 500px;
 }
 
 img{
-    margin:50px 75px;
-    width: 100px;
-    height:100px;
+    margin:50px 130px;
+    width: 120px;
+    height:120px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -23,7 +28,7 @@ img{
 form{
     display: block;
     margin: 20px;
-    margin-left: 150px;
+    margin-left: 15px;
     padding:30px;
 }
 label{
@@ -35,7 +40,7 @@ label{
 input[type="email"],input[type="text"]{
     display: block;
     padding: 10px;
-    width: 250px;
+    width: 350px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -45,9 +50,13 @@ input[type="email"],input[type="text"]{
 
 button{
     display: block;
-    background-color: rgb(175, 127, 220);
+    background-color: rgb(190, 148, 228);
     padding: 10px;
-    width: 275px;
+    width: 375px;
     border-radius: 10px;
+    cursor: pointer;
+}
 
+button:hover{
+    background-color: blueviolet;
 }
